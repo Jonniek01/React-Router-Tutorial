@@ -24,7 +24,7 @@ function App() {
           <Link to="/profile">Profile</Link>
         </li>
         <li>
-          <Link to="/post">Post</Link>
+          <Link to="/post">Profile</Link>
         </li>
 
 
@@ -37,10 +37,9 @@ function App() {
     <Route path='/' element={<Home/>} exact/>
     <Route path='/about' element={<About/>} exact/>
     <Route path='/profile' element={<Profile/>} exact/>
-    <Route path='/post/:id' element={<Post/>} exact/>
+    <Route path='/post' element={<Post/>} exact/>
 
     <Route path="*" element={<NotFound/>} exact/>
-    <div>post</div>
 
 
 
